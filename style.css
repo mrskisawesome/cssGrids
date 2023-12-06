@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-row-gap: 10px; /*gap btwn rows*/
+  grid-column-gap: 20px; /*gap btwn columns*/
+}
+.box {
+  background-color: rgb(244, 246, 248);
+}
+img {
+  max-width: 100px;
+}
